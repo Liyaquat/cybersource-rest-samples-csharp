@@ -9,15 +9,15 @@ namespace SampleCode.data
 
         public Dictionary<string, string> GetConfiguration()
         {
-            _configurationDictionary.Add("merchantID", "testrest");
-            _configurationDictionary.Add("merchantsecretKey", "yBJxy6LjM2TmcPGu+GaJrHtkke25fPpUX+UY6/L/1tE=");
-            _configurationDictionary.Add("merchantKeyId", "08c94330-f618-42a3-b09d-e1e43be5efda");
+            _configurationDictionary.Add("merchantID", "alconsulting");
+            _configurationDictionary.Add("merchantsecretKey", "Wk0CNlPJnaFGv04LINCh0vZQ7ntUZvXktpDa1Tc1O/U=");
+            _configurationDictionary.Add("merchantKeyId", "38ebcefb-8e71-4a61-b16a-883af713943b");
             _configurationDictionary.Add("authenticationType", "JWT");
             _configurationDictionary.Add("keysDirectory", "..\\..\\Resource");
-            _configurationDictionary.Add("keyFilename", "testrest");
-            _configurationDictionary.Add("runEnvironment", "cybersource.environment.sandbox");
-            _configurationDictionary.Add("keyAlias", "testrest");
-            _configurationDictionary.Add("keyPass", "testrest");
+            _configurationDictionary.Add("keyFilename", "alconsulting");
+            _configurationDictionary.Add("runEnvironment", "apitest.cybersource.com");
+            _configurationDictionary.Add("keyAlias", "alconsulting");
+            _configurationDictionary.Add("keyPass", "alconsulting");
             _configurationDictionary.Add("enableLog", "TRUE");
             _configurationDictionary.Add("logDirectory", string.Empty);
             _configurationDictionary.Add("logFileName", string.Empty);
